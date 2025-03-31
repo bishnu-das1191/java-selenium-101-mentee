@@ -1,0 +1,22 @@
+
+url = http://www.automationpractice.pl/index.php?controller=authentication&back=my-account
+Reporting - Allure Reporting & Extent Reporting
+Logs - Log4j
+Selenium WebDriver - Java with Latest version -> 4.25.0
+Test Library - TestNG [Basic report, testng.xml, Retry Logic, Parallel Execution, Parameterization, DataDriven Testing]
+DataDriven Testing - using DataProvider - Excel, CSV [opencsv], Json [jackson, gson]
+Retry Logic - IRetryAnalyzer
+Sonarlint - Code Quality - Code smells
+TestData - Test Data Management - Faker Library
+Design Pattern - Page Object Model [POM], Singleton Design Pattern, Factory Design Pattern
+Environment - Dev, test, UAT
+Utility component - Excel Utility, Json Utility, CSV Utility, Property File Utility
+BrowserUtility - Abstract class and will have browser related methods
+Screenshot - Capture Screenshot
+Cloud execution using BrowserStack or lambdatest
+Jenkins - CI/CD
+
+
+
+
+
