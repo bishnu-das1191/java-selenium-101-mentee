@@ -4,15 +4,15 @@ import com.ui.pages.HomePage;
 import com.ui.pages.LoginPage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.Test;
 
-public class LoginTest3 {
+public class LoginTest4 {
 
-    public static void main(String[] args) {
-        WebDriver driver = new ChromeDriver();
-        HomePage homePage = new HomePage(driver);
+    @Test(description = "Valid login scenario")
+    public void loginTest(){
+        HomePage homePage = new HomePage("chrome");
         LoginPage loginPage = homePage.gotToLoginPage();
         String usernameInAccountPage = loginPage.doLoginWith("bishnu@xyz.com", "password").getLoggedInUserName();
         System.out.println(usernameInAccountPage);
     }
-
 }
